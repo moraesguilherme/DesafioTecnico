@@ -12,7 +12,7 @@ namespace NumeroDecomposicao.Tests.Services
         }
 
         [Fact]
-        public void ObterDivisoresPrimos_ValidDivisors_ReturnsCorrectPrimeDivisors()
+        public void Deve_RetornarDivisoresPrimosCorretos_QuandoDivisoresValidos()
         {
             List<int> divisores = new List<int> { 1, 3, 5, 9, 15, 45 };
 
@@ -22,7 +22,7 @@ namespace NumeroDecomposicao.Tests.Services
         }
 
         [Fact]
-        public void ObterDivisoresPrimos_NullDivisors_ThrowsArgumentException()
+        public void Deve_LancarArgumentException_QuandoDivisoresForemNulos()
         {
             Assert.Throws<ArgumentException>(() => _primesService.ObterDivisoresPrimos(null));
         }

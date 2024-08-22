@@ -17,7 +17,7 @@ namespace NumeroDecomposicao.Tests.Controllers
         }
 
         [Fact]
-        public void GetDivisores_ValidNumber_ReturnsOkResultWithDivisors()
+        public void Deve_RetornarDivisoresEPrimos_QuandoNumeroValido()
         {
             int numero = 45;
 
@@ -32,7 +32,7 @@ namespace NumeroDecomposicao.Tests.Controllers
         }
 
         [Fact]
-        public void GetDivisores_InvalidNumber_ReturnsBadRequest()
+        public void Deve_RetornarBadRequest_QuandoNumeroInvalido()
         {
             var result = _controller.GetDivisores(0);
 

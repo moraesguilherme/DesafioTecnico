@@ -12,7 +12,7 @@ namespace NumeroDecomposicao.Tests.Services
         }
 
         [Fact]
-        public void ObterDivisores_ValidNumber_ReturnsCorrectDivisors()
+        public void Deve_RetornarDivisoresCorretos_QuandoNumeroValido()
         {
             int numero = 45;
 
@@ -22,7 +22,7 @@ namespace NumeroDecomposicao.Tests.Services
         }
 
         [Fact]
-        public void ObterDivisores_NumberIsZero_ThrowsArgumentException()
+        public void Deve_LancarArgumentException_QuandoNumeroForZero()
         {
             int numero = 0;
 
