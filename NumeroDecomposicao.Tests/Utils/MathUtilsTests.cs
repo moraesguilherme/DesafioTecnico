@@ -12,10 +12,8 @@ namespace NumeroDecomposicao.Tests.Utils
         [InlineData(17, true)]
         public void Deve_RetornarSeEhPrimo_QuandoEntradaValida(int numero, bool expected)
         {
-            // Act
             bool result = MathUtils.EhPrimo(numero);
 
-            // Assert
             Assert.Equal(expected, result);
         }
     }
