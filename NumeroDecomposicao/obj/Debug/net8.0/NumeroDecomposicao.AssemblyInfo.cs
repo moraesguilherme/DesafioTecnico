@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NumeroDecomposicao")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f75a4643043397e9587699179dea4b75d1041851")]
 [assembly: System.Reflection.AssemblyProductAttribute("NumeroDecomposicao")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NumeroDecomposicao")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

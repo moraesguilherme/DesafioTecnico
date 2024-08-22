@@ -1,0 +1,6 @@
+@NumeroDecomposicao.Api_HostAddress = http://localhost:5015
+
+GET {{NumeroDecomposicao.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
